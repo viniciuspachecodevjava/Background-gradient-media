@@ -54,3 +54,10 @@ body{
         background-position: 0% 90%;
     }
 }
+
+@media (max-width:425px){
+    .box .social-media{
+        display: flex;
+        flex-direction: column;
+}
+}
