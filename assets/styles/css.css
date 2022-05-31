@@ -20,12 +20,15 @@ body{
 }
 .box{
     display: flex;
+    width:100vw;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
 .box h1{
     font-size:42px;
+   
 }
 .box h2{
     font-size:27px;
@@ -59,5 +62,22 @@ body{
     .box .social-media{
         display: flex;
         flex-direction: column;
+
 }
+ .box > h1{
+    font-size:2.3rem;
+}
+.box > h2{
+    font-size:1.5rem;
+} 
+
+}
+@media (max-width:375px){
+ .box > h1{
+    font-size:2rem;
+}
+.box > h2{
+    font-size:1.2rem;
+} 
+
 }
